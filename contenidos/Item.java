@@ -1,4 +1,4 @@
-package cafeteria.contenidoss;
+package cafeteria.contenidos;
 
 public interface Item {
     
