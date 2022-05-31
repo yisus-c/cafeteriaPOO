@@ -8,7 +8,7 @@ public class Cliente {
     private String nombre;
     private int telefono;
     private String correo;
-    private ArrayList<Pago> metodoPago = new ArrayList<Pago>();
+    public ArrayList<Pago> metodoPago = new ArrayList<Pago>();
     public Cliente(int idCliente, String nombre, int telefono, String correo){
         this.idCliente = idCliente;
         this.nombre = nombre;
